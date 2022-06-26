@@ -6,19 +6,19 @@ int main()
 {
     for(int a=1;a<=4;a++)
     {
-        ///1
+        //1
         for(int b=1;b<=3;b++)
         {
             if(a<=b)
                 cout<<" ";
         }
-        ///2
+        //2
         for(int c=1; c<=4;c++)
         {
             if(a >=c)
                 cout<<"*";
         }
-        ///3
+        //3
         for(int d=1;d<=3;d++)
         {
             if(a >d)
@@ -26,21 +26,21 @@ int main()
         }
         cout<<endl;
     }
-    for(int f=4;f>=1;f--)
+    for(int f=4;f>=1;f--
     {
-        ///4
+        //4
         for(int g=1;g<=4;g++)
         {
             if(f<g)
                 cout<<" ";
         }
-        ///5
+        //5
         for(int h=1;h<=4;h++)
         {
             if(f>=h)
                 cout<<"*";
         }
-        ///6
+        //6
         for(int i=1;i<=3;i++)
         {
             if(f>i)
