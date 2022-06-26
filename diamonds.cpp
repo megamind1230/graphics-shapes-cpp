@@ -1,12 +1,9 @@
 //08_homework_03_answer.cpp
-//diamond
-
-/// 1 a diamond using for loop
+//diamond// 1 a diamond using for loop
 #include <iostream>
 using namespace std;
 int main()
 {
-
     for(int a=1;a<=4;a++)
     {
         ///1
@@ -29,7 +26,6 @@ int main()
         }
         cout<<endl;
     }
-
     for(int f=4;f>=1;f--)
     {
         ///4
@@ -52,12 +48,10 @@ int main()
         }
         cout<<endl;
     }
-
 }
 
 /*
-
-///2 a diamond using while loop
+//2 a diamond using while loop
 #include <iostream>
 using namespace std;
 int main()
@@ -65,66 +59,62 @@ int main()
     int a=1;
     while(a<=4)
     {
-        ///1
+        //1
         int b=1;
         while(b<=3)
         {
             if(a<=b)
                 cout<<" ";
-                b++;
+            b++;
         }
-        ///2
+        //2
         int c=1;
         while( c<=4)
         {
             if(a >=c)
                 cout<<"*";
-                c++;
+            c++;
         }
-        ///3
+        //3
         int d=1;
         while(d<=3)
         {
             if(a >d)
                 cout<<"*";
-                d++;
+            d++;
         }
         cout<<endl;
         a++;
     }
-
     int f=4;
     while(f>=1)
     {
-        ///4
+        //4
         int g=1;
         while(g<=4)
         {
             if(f<g)
                 cout<<" ";
-                g++;
+            g++;
         }
-        ///5
+        //5
         int h=1;
         while(h<=4)
         {
             if(f>=h)
                 cout<<"*";
-                h++;
+            h++;
         }
-        ///6
+        //6
         int i=1;
         while(i<=3)
         {
             if(f>i)
                 cout<<"*";
-                i++;
+            i++;
         }
         cout<<endl;
-
         f--;
     }
-
 }
-
 */
